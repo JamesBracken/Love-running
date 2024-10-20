@@ -85,3 +85,25 @@ footer{
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+/* Media query : tablets and larger (768px and upwards */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav{
+        display:block;
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    #menu{
+        display:flex;
+    }
+    #menu > li{
+        padding-left: 1rem;
+    }
+    .nav-toggle-label {
+        display: none;
+    }
+    nav {
+    box-shadow: 0 0 0 #3a3a3a;
+    }
+}
