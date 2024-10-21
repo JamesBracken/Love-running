@@ -154,6 +154,22 @@ main {
     padding: 5%;
     color: #3a3a3a;
 }
+#benefits-image{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Circular image */
+#circle-cover-bg {
+    background: url("../images/reasons-image.webp") no-repeat;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
 
 /* Media query : tablets and larger (768px and upwards */
 @media screen and (min-width: 768px) {
