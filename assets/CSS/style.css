@@ -177,6 +177,20 @@ main {
 #photos {
     line-height: 0;
 }
+/* Signup form styles */
+#signup {
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+}
+
+#signup h2 {
+    color: #fafafa;
+}
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+}
 /* Footer */
 #social-networks {
     text-align: center;
